@@ -221,5 +221,9 @@ export default StyleSheet.create({
         height: '40%',
         display: 'flex',
         flexDirection: 'column'
+    },
+    seusPedidosHeader: {
+        width: '100%',
+        
     }
 });
