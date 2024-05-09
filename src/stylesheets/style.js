@@ -187,13 +187,13 @@ export default StyleSheet.create({
     },
     buttonDivVertical: {
         display: 'flex',
-        height: '20%',
+        height: '15%',
         width: '100%',
         paddingVertical: '10px',
         flexDirection: 'column',
         justifyContent: 'center',
         overflow: 'hidden',
-        marginVertical: '15px'
+        marginTop: '15px'
     },
     buttonDivHorizontal: {
         height: '50%',
@@ -218,12 +218,27 @@ export default StyleSheet.create({
     },
     seusPedidosDiv: {
         width: '100%',
-        height: '40%',
+        height: '50%',
         display: 'flex',
         flexDirection: 'column'
     },
     seusPedidosHeader: {
         width: '100%',
-        
+        height: '20%',
+        display: 'flex',
+        flexDirection: 'row',
+        paddingHorizontal: '10px',
+        justifyContent: 'space-between',
+        alignContent: 'center',
+        marginTop: '15px',
+        marginBottom: '-20px'
+    },
+    seusPedidosContent: {
+        height: '40%',
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-evenly',
+        alignItems: 'center'
     }
 });

@@ -39,16 +39,16 @@ export default function Routes() {
                     tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size}/>
                 }}/>
                 <Tab.Screen name='Profile' component={Profile} options={{
-                    tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size}/>
+                    tabBarIcon: ({ color, size }) => <Ionicons name='person' color={color} size={size}/>
                 }}/>
                 <Tab.Screen name='Cart' component={Cart} options={{
-                    tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size}/>
+                    tabBarIcon: ({ color, size }) => <Ionicons name='cart' color={color} size={size}/>
                 }}/>
                 <Tab.Screen name='Menu' component={Menu} options={{
-                    tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size}/>
+                    tabBarIcon: ({ color, size }) => <Ionicons name='menu' color={color} size={size}/>
                 }}/>
                 <Tab.Screen name='Login' component={Login} options={{
-                    tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size}/>
+                    tabBarIcon: ({ color, size }) => <Ionicons name='log-in' color={color} size={size}/>
                 }}/>
             </Tab.Navigator>
         </NavigationContainer>
