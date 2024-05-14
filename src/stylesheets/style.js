@@ -240,5 +240,117 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-evenly',
         alignItems: 'center'
+    },
+    pedidosCarrinhoText: {
+        height: '10%',
+        width: '100%',
+        textAlign: 'center',
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginTop: '20px'
+    },
+    carrinhoContentDiv: {
+        width: '100%',
+        height: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-start'
+    },
+    carrinhoSubtotalDiv: {
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
+        alignContent: 'center',
+        marginTop: -10
+    },
+    carrinhoSubtotalText: {
+        fontSize: 15,
+        marginLeft: 10
+    },
+    carrinhoSubtotalTextBold: {
+        fontSize: 15,
+        fontWeight: 'bold',
+        marginLeft: 5
+    },
+    fecharPedidoButton: {
+        backgroundColor: '#ffd700',
+        width: '90%',
+        fontSize: 13,
+        paddingVertical: 10,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '16px',
+        marginVertical: 20
+    },
+    presenteDiv: {
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    checkBox: {
+        transform: [
+            {
+                scale: 1.5
+            }
+        ],
+        marginLeft: 20,
+        marginRight: 30,
+    },
+    presentText: {
+        fontWeight: '500',
+        fontSize: 15
+    },
+    desmarcarItensText: {
+        color: '#07b1fa',
+        alignSelf: 'flex-start',
+        marginLeft: 20,
+        marginVertical: 20
+    },
+    itemCartDiv: {
+        height: '180px',
+        width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        flexDirection: 'row'
+    },
+    cartCard: {
+        width: '45%',
+        height: '100%',
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+        alignContent: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'white',
+        borderRadius: '16px',
+        marginLeft: 10
+    },
+    productDescriptionCart: {
+        height: '100%',
+        width: '55%',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        flexDirection: 'column',
+        paddingHorizontal: '10px'
+    },
+    cardButtonsDiv: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'center'
+    },
+    buttonCartQuantity: {
+        height: 30,
+        width: 30,
+        borderColor: 'black',
+        backgroundColor: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 });
