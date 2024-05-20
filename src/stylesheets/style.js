@@ -341,16 +341,96 @@ export default StyleSheet.create({
     cardButtonsDiv: {
         width: '100%',
         display: 'flex',
+        flexDirection: 'row',
         justifyContent: 'flex-start',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: '20px',
+        paddingHorizontal: '20px'
     },
     buttonCartQuantity: {
         height: 30,
         width: 30,
-        borderColor: 'black',
         backgroundColor: 'white',
         display: 'flex',
         justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '8px',
+        borderWidth: '1px',
+        borderColor: 'grey',
+        fontWeight: 'bold',
+        fontSize: '16px'
+    },
+    menuDiv: {
+        height: '50%',
+        width: '100%',
+        padding: '20px',
+        display: 'flex',
+        justifyContent: 'center',
         alignItems: 'center'
+    },
+    menuHeaderText: {
+        width: '100%',
+        textAlign: 'left',
+        paddingLeft: '20px',
+        fontSize: '16px',
+        fontWeight: 'bold'
+    },
+    menuGridWrapper:{
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+        width: '100%'
+    },
+    menuGrid: {
+        height: '100%',
+        width: '100%',
+        flex: 3,
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        alignItems: 'stretch',
+        marginHorizontal: '20px',
+        marginTop: '10px',
+        overflow: 'scroll',
+        flexDirection: 'row'
+    },
+    cardMenu: {
+        height: '50%',
+        width: '30%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+    },
+    cardMenuDivImageWrapper: {
+        height: '70%',
+        width: '70%',
+        overflow: 'hidden',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'white',
+        borderRadius: '16px',
+        padding: '10px'
+    },
+    cardMenuCategoria: {
+        height: '45%',
+        width: '30%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        backgroundColor: 'white',
+        borderRadius: '16px',
+    },
+    cardMenuDivImageWrapperCategoria: {
+        height: '80%',
+        width: '80%',
+        overflow: 'hidden',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingBottom: '5px'
     }
 });

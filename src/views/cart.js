@@ -10,6 +10,17 @@ export default function Cart() {
 
     const [quantity, setQuantity] = useState(1)
 
+    const handleClickAdd = () => {
+        setQuantity(quantity + 1)
+    }
+    const handleClickSubtract = () => {
+        if (quantity > 0) {
+            setQuantity(quantity - 1)
+        }else{
+            alert('Viado detectado!!!')
+        }
+    }
+
     return (
         <View style={style.tela}>
             <View style={style.divHeader}>
@@ -48,8 +59,18 @@ export default function Cart() {
                     </View>
                 </View>
                 <View style={style.cardButtonsDiv}>
-                    <Pressable style={style.buttonCartQuantity}>
+                    <Pressable style={style.buttonCartQuantity} onPress={handleClickSubtract}>
                         <span>-</span>
+                    </Pressable>
+                    <Pressable style={{
+                        ...style.buttonCartQuantity,
+                        color: 'blue',
+                        fontSize: '12px'
+                    }}>
+                        <span>{quantity}</span>
+                    </Pressable>
+                    <Pressable style={style.buttonCartQuantity} onPress={handleClickAdd}>
+                        <span>+</span>
                     </Pressable>
                 </View>
             </View>

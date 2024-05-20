@@ -1,16 +1,16 @@
-import { Image, Text, TextInput, View } from "react-native";
-import style from "../stylesheets/style";
 import { MagnifyingGlassIcon, MapPinIcon } from "@heroicons/react/16/solid";
+import { Text, TextInput, View } from "react-native";
+import style from "../stylesheets/style";
 
-import gatoRobo from '../../assets/products/gatoRobo.webp'
-import lamborghini from '../../assets/products/lamborghini.webp'
-import play5 from '../../assets/products/play5.webp'
-import doritos from '../../assets/products/doritos.png'
-import perfume from '../../assets/products/perfume.png'
-import pneu from '../../assets/products/pneu.png'
-import nSwitch from '../../assets/products/switch.png'
-import xboxOne from '../../assets/products/xboxOne.png'
-import motoserra from '../../assets/products/motoserra.png'
+import doritos from '../../assets/products/doritos.png';
+import gatoRobo from '../../assets/products/gatoRobo.webp';
+import lamborghini from '../../assets/products/lamborghini.webp';
+import motoserra from '../../assets/products/motoserra.png';
+import perfume from '../../assets/products/perfume.png';
+import play5 from '../../assets/products/play5.webp';
+import pneu from '../../assets/products/pneu.png';
+import nSwitch from '../../assets/products/switch.png';
+import xboxOne from '../../assets/products/xboxOne.png';
 import Card from '../components/Card.js';
 
 export default function Home() {
